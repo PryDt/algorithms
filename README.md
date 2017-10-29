@@ -1,4 +1,8 @@
-# Algorithms
-Algorithms are defined as "a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer."
+---
+title: Home
+---
 
-This repository will be a place to store algorithms and data structures which I have learned.
+# An Algorithms Blog
+## by [Pranoy Dutta](https://github.com/prydt)
+
+First Post: [Union-Find AKA Disjointed Sets](https://prydt.github.io/algorithms/union_find)

@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 title: Algorithms
-description: A Blog over Algorithms and Programming by Pranoy Dutta
+description: Algorithms Explained? Perhaps.
 plugins:
   - jekyll-feed

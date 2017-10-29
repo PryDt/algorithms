@@ -1,6 +1,7 @@
 ---
 title: "Union Find"
-date: 2017-10-29 1:15:00 -0600
+date: 2017-10-29 1:15:00
+future: true
 ---
 # Union Find (Dynamic Connectivity)
 *AKA Disjointed-set Data Structure*

@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Jekyll
+_site

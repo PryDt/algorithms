@@ -11,8 +11,8 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-	
-	
+
+    <!-- Extra SEO Stuff -->
 	<meta name="description" content="Algorithms Explained? Perhaps." />
 	<link rel="canonical" href="{{ relative_url }}" />
 	<meta property="og:description" content="Algorithms Explained? Perhaps." />
@@ -23,14 +23,23 @@
 	<meta property="og:title" content="Algorithms" />
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content="{{ relative_url }}" />
-	
+
+    <!-- Twitter SEO tags -->
 	<meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="{{ relative_url }}" />
     <meta name="twitter:title" content="Algorithms" />
     <meta name="twitter:description" content="Algorithms Explained? Perhaps." />
     <meta name="twitter:image" content="./megumin.png" />
     <meta name="twitter:site" content="algorithms" />
-	
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
   </head>
   <body>
     <div class="wrapper">
@@ -43,7 +52,7 @@
         {% endif %}
 
         {% if site.github.is_user_page %}
-          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+          <p class="view"><a href="{{ site.github.owner_url }}" target="_blank">View My GitHub Profile</a></p>
         {% endif %}
 
         {% if site.show_downloads %}
@@ -53,8 +62,6 @@
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
           </ul>
         {% endif %}
-		
-		
 
       </header>
       <section>
@@ -64,7 +71,7 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-		<a href="https://twitter.com/_prydt"><img src="{{ '/megumin.png' | relative_url }}" alt="mai waifu"></a>
+		<a href="https://twitter.com/_prydt" target="_blank"><img src="{{ '/megumin.png' | relative_url }}" alt="mai waifu"></a>
 		<p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
       </footer>

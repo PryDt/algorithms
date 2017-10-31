@@ -3,3 +3,5 @@ title: Algorithms
 description: Algorithms Explained? Perhaps.
 plugins:
   - jekyll-feed
+repository: prydt/algorithms
+google_analytics: UA-109029956-1

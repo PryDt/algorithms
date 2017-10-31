@@ -189,4 +189,6 @@ int root(int i)
 
 There is literally no reason not to add this simple improvement that basically keeps all the trees flat.
 
-The Source Code my basic implementation of a weighted unionfind w/ path compression can be found [here](https://github.com/PryDt/algorithms/tree/master/union_find/UnionFind.h).
+The Source Code my basic implementation of a weighted unionfind w/ path compression can be found [here](https://github.com/PryDt/algorithms/tree/master/union_find/UnionFind.h) and is shown below.
+
+<img src="./image.png" data-action="zoom">
